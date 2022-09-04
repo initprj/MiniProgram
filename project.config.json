@@ -1,12 +1,8 @@
 {
   "description": "项目配置文件",
   "packOptions": {
-    "ignore": [
-      {
-        "type": "file",
-        "value": ".eslintrc.js"
-      }
-    ]
+    "ignore": [],
+    "include": []
   },
   "setting": {
     "bundle": false,
@@ -36,39 +32,20 @@
     "packNpmRelationList": [],
     "minifyWXSS": true,
     "showES6CompileOption": false,
-    "minifyWXML": true
+    "minifyWXML": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
   },
   "compileType": "miniprogram",
   "libVersion": "2.19.4",
   "appid": "wxfde6bba43e3cc824",
-  "projectname": "MiniProgram",
-  "debugOptions": {
-    "hidedInDevtools": []
-  },
-  "scripts": {},
-  "staticServerOptions": {
-    "baseURL": "",
-    "servePath": ""
-  },
-  "isGameTourist": false,
-  "condition": {
-    "search": {
-      "list": []
-    },
-    "conversation": {
-      "list": []
-    },
-    "game": {
-      "list": []
-    },
-    "plugin": {
-      "list": []
-    },
-    "gamePlugin": {
-      "list": []
-    },
-    "miniprogram": {
-      "list": []
-    }
+  "projectname": "miniprogram-92",
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
   }
 }
